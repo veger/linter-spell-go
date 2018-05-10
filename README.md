@@ -9,6 +9,11 @@ Provider for Atom [linter-spell](https://atom.io/packages/linter-spell) package 
 
 Use the Atom Package Manager and search for "linter-spell-go", or run `apm install linter-spell-go` from command line interface.
 
+## Configuration
+The following settings are available:
+
+* **Check Strings** - When checked spell checking is enabled for strings
+
 ## Prerequisites
 
 * [linter-spell](https://atom.io/packages/linter-spell)

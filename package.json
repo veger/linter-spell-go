@@ -28,6 +28,14 @@
   "activationHooks": [
     "language-go:grammar-used"
   ],
+  "configSchema": {
+    "checkStrings": {
+      "description": "Enable spell check in strings.",
+      "type": "boolean",
+      "default": true,
+      "order": 1
+    }
+  },
   "providedServices": {
     "linter-spell-grammar": {
       "versions": {
