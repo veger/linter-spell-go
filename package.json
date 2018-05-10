@@ -1,0 +1,43 @@
+{
+  "name": "linter-spell-go",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Go spell checking using linter-spell",
+  "keywords": [
+    "go",
+    "linter",
+    "linter-spell",
+    "spell-check"
+  ],
+  "repository": "https://github.com/veger/linter-spell-go",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/veger/linter-spell-go/issues"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.0",
+    "linter-spell-word-list": "^0.5.0"
+  },
+  "package-deps": [
+    "linter-spell",
+    "language-go"
+  ],
+  "activationHooks": [
+    "language-go:grammar-used"
+  ],
+  "providedServices": {
+    "linter-spell-grammar": {
+      "versions": {
+        "1.0.0": "provideGrammar"
+      }
+    },
+    "linter-spell-dictionary": {
+      "versions": {
+        "1.0.0": "provideDictionary"
+      }
+    }
+  }
+}
