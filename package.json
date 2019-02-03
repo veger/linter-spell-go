@@ -1,7 +1,7 @@
 {
   "name": "linter-spell-go",
   "main": "./lib/main",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Go spell checking using linter-spell",
   "keywords": [
     "go",
